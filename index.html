@@ -9,11 +9,16 @@
 <body>
   <h1 id="test">This is a Demo</h1>
   <p>I will fix a typo</p>
+  <div>
+    <h2>I like this stuff...</h2>
+  </div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const h1 = document.getElementById('test')
       h1.innerText = "Hello Venus"
+      h1.style.color = 'red'
+      h1.style.fontSize = '200px'
     })
   </script>
 </body>
